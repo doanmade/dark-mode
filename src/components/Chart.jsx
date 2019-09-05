@@ -1,12 +1,12 @@
-import React from "react";
 import moment from "moment";
+import React from "react";
 import {
-  LineChart,
-  Line,
   CartesianGrid,
+  Line,
+  LineChart,
+  Tooltip,
   XAxis,
-  YAxis,
-  Tooltip
+  YAxis
 } from "recharts";
 
 const Chart = ({ sparklineData }) => {
